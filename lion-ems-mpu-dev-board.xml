@@ -37,5 +37,5 @@
   <project name="meta-lion-bsp" path="sources/meta-lion-bsp" remote="lion-bsp" revision="301e209b2c49aa1191e463014d6c1a93a76492ec">
     <linkfile dest="lion-setup-dev.sh" src="scripts/lion-setup-dev.sh"/>
   </project>
-  <project name="meta-mender" path="sources/meta-mender" remote="yocto" revision="bd64bbc28517d1ab07bfa225f8cad16beda167aa"/>
+  <project name="meta-mender" path="sources/meta-mender" remote="mender" revision="bd64bbc28517d1ab07bfa225f8cad16beda167aa"/>
 </manifest>
