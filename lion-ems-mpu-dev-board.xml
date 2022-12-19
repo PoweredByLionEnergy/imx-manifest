@@ -33,7 +33,7 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="edce180f0389a13e678cb0edafb7f8980648e1a4"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
-  <project name="meta-lion-bsp" path="sources/meta-lion-bsp" remote="lion-bsp" revision="0bc41b0cf857e89f8727e3c010a4e5dc86801343" upstream="main">
+  <project name="meta-lion-bsp" path="sources/meta-lion-bsp" remote="lion-bsp" revision="b27d4df3f815ea9dfafbf3075e035c78b564cbf3">
     <linkfile dest="lion-setup-dev.sh" src="scripts/lion-setup-dev.sh"/>
   </project>
 </manifest>
