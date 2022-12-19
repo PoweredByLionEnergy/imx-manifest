@@ -24,10 +24,8 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="fc15f5003043da23212596be7366ae2547c308ad" upstream="kirkstone"/>
 
-  <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.32_2.0.0_gh" upstream="kirkstone-5.15.32-2.0.0">
-    <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
-    <linkfile dest="README-IMXBSP" src="README"/>
-  </project>
+  <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.32_2.0.0_gh" upstream="kirkstone-5.15.32-2.0.0"/>
+    
 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fade3993b832ecd823771644f2a7b731f8f4527" upstream="kirkstone"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone"/>
@@ -35,5 +33,7 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="edce180f0389a13e678cb0edafb7f8980648e1a4"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
-  <project name="meta-lion-bsp" path="sources/meta-lion-bsp" remote="lion-bsp" revision="0bc41b0cf857e89f8727e3c010a4e5dc86801343"/>
+  <project name="meta-lion-bsp" path="sources/meta-lion-bsp" remote="lion-bsp" revision="0bc41b0cf857e89f8727e3c010a4e5dc86801343" upstream="main">
+    <linkfile dest="imx-setup-release.sh" src="scripts/imx-setup-release.sh"/>
+  </project>
 </manifest>
