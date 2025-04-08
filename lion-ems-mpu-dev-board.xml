@@ -3,6 +3,7 @@
 
   <default sync-j="2"/>
 
+  <remote fetch="https://github.com/aws4embeddedlinux" name="aws"/>
   <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
   <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="https://code.qt.io/yocto"  name="QT6"/>
@@ -28,6 +29,7 @@
   <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.32_2.0.0_gh" upstream="kirkstone-5.15.32-2.0.0"/>
     
 
+  <project name="meta-aws" path="sources/meta-aws" remote="aws" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="35c364933945dd15b7a96b60675fc304ce6fb881" upstream="kirkstone"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone"/>
   <project name="meta-qt6" path="sources/meta-qt6" remote="QT6" revision="b2894aad5c1aaa85f2f5c7b94391b7c51c39e555" upstream="6.3"/>
